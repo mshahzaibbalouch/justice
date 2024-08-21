@@ -1,5 +1,37 @@
-.MuiBottomNavigation-root{
-  justify-content: flex-start !important;
+:root {
+  --bs-theme-primary: #1d3d78;
+  --bs-theme-bg:#335594;
+  --bs-theme-btn: #004c9a;
+  --bs-theme-white: #ffffff;
+  --bs-theme-dark: #0e0e0e;
+  --bs-theme-shadow: #050580;
+  --bs-theme-transparent:#00000000;
 }
 
+#topbar{
+  background-color: var(--bs-theme-primary);
+  color: var(--bs-theme-white) !important;
+}
 
+#topbar a{
+  color: var(--bs-theme-white);
+}
+
+.btn-outline-white{
+  border-color: var(--bs-theme-white) !important;
+  background-color: var(--bs-theme-transparent) !important;
+}
+
+.btn-outline-white:hover{
+  border-color: var(--bs-theme-white) !important;
+  background-color: var(--bs-theme-white) !important;
+  color: var(--bs-theme-primary) !important;
+}
+
+.bg-theme-primary {
+  background-color: var(--bs-theme-bg);
+}
+
+.bg-theme-primary a, .bg-theme-primary .nav-link{
+  color: var(--bs-theme-white) !important;
+}

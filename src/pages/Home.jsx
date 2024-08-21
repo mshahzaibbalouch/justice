@@ -1,8 +1,13 @@
 import React from 'react'
+import Counter from './Components/Counter'
+import CounterControls from './Components/CounterControls'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Counter />
+      <CounterControls />
+    </div>
   )
 }
 
