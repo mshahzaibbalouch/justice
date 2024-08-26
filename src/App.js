@@ -7,7 +7,10 @@ import About from "./pages/About";
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min.js'
+import 'bootstrap/dist/js/bootstrap.min.js';
+
+
+import './pages/Components/Components.css';
 
 function App() {
   return (
