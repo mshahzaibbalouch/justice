@@ -1,15 +1,14 @@
 import React from 'react'
-import Counter from './Components/Counter'
-import CounterControls from './Components/CounterControls';
 import Hero from './Components/Hero';
+import Services from './Components/Services';
+import WhatWeDo from './Components/WhatWeDo';
 
 const Home = () => {
   return (
     <div>
-
       <Hero />
-      <Counter />
-      <CounterControls />
+      <Services />
+      <WhatWeDo />
     </div>
   )
 }

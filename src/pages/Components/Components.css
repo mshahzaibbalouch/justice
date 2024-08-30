@@ -5,8 +5,28 @@
     background-size: 100%;
 }
 
-.hero-bg{
-    background-color:#154aad57;
+.hero-bg {
+    background-color: #154aad57;
     color: var(--bs-theme-white) !important;
     height: 400px;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: auto;
+}
+
+.seprater {
+    width: 50px;
+    height: 5px;
+    background-color: var(--bs-theme-primary);
+}
+
+.bg-theme-primary .seprater {
+    background-color: var(--bs-theme-white);
+}
+
+.card-icon{
+    width: 50px;
+    height: 50px;
 }

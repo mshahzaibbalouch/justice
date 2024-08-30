@@ -30,8 +30,13 @@
 
 .bg-theme-primary {
   background-color: var(--bs-theme-bg);
+  color: var(--bs-theme-white) !important;
 }
 
 .bg-theme-primary a, .bg-theme-primary .nav-link{
   color: var(--bs-theme-white) !important;
+}
+
+.btn-primary{
+  background-color: var(--bs-theme-btn) !important;
 }

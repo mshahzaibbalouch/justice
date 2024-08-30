@@ -6,7 +6,7 @@ const Navigationbar = () => {
     <div>
       <nav className="navbar  navbar-expand-xxl bg-theme-primary  text-uppercase">
         <div className="container-sm">
-          <NavLink className="navbar-brand" href="#">Justice</NavLink>
+          <NavLink className="navbar-brand" href="/"><img src="/img/logo.png" alt="logo" /></NavLink>
           <button className="navbar-toggler bg-white border-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon text-white"></span>
           </button>
